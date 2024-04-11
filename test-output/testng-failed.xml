@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.stepdefinition.AmazonHomePage">
+        <methods>
+          <include name="user_is_verify_the_homepage_and_find_locator"/>
+          <include name="user_is_on_the_amazon_page"/>
+          <include name="user_should_verify_after_completed_execution_success_msg"/>
+        </methods>
+      </class> <!-- com.stepdefinition.AmazonHomePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
