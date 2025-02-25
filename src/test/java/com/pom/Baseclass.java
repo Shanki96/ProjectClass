@@ -37,6 +37,7 @@ public class Baseclass {
         driver.get("https://www.amazon.in/ref=nav_logo");
         driver.manage().window().maximize();
         
+        System.out.println("Println print");        
     }
     public List<WebElement> getNavigationLinks() {
         return driver.findElements(naviLinks);
